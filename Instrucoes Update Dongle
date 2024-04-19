@@ -1,0 +1,9 @@
+Baseado no video https://www.youtube.com/watch?v=JM9LnwtZRoA
+
+Fazer o download do script https://github.com/JelmerT/cc2538-bsl/blob/master/cc2538-bsl.py
+
+Fazer Download do firmware em https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin (launchpad)
+CC1352P2_CC2652P_launchpad_coordinator_20230507.zip
+
+colocar em bootloader com comando "python .\uartLog.py"
+queimar com o comando "python cc2538-bsl.py -p COM20 -e -v -w --bootloader-sonoff-usb CC1352P2_CC2652P_launchpad_coordinator_20230507.hex"
